@@ -1,11 +1,11 @@
-*.pyc
-db.sqlite3
-Berksfile.lock
-chef-client-running.pid
-cookbooks
+# Chef
+.chef/*.pem
+.chef/encrypted_data_bag_secret
 
-bower_components
-static_files
+# Ruby
+.rake_test_cache
+.rvmrc
+.rbenv-version
 
 # Emacs
 *~
@@ -50,3 +50,16 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
+
+# Git
+.git/
+.gitignore
+.gitmodules
+
+# Subversion
+.svn/
+
+# Mercurial
+.hg/*
+*/.hg/*
+.hgignore
